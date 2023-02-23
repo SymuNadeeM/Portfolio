@@ -15,13 +15,10 @@ const User = () => {
         </div>
         <div className=" space-y-1 md:space-y-2">
           <p className=" font-jose  text-base text-[#1A120B] dark:text-dtext1">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim fuga
-            quia nulla consequatur, laborum reprehenderit? Ut rerum voluptate
-            deserunt dicta, inventore alias unde aut eos praesentium ducimus cum
-          </p>
-          <p className=" font-jose  text-base text-[#1A120B] dark:text-dtext1">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt,
-            harum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+            I am a hard working individual web developer with deep knowledge and
+            proficiency in front-end technology as well as the ability to
+            communicate effectively in a team setting, and possessing a strong
+            willingness to learn about modern web technologies.
           </p>
         </div>
       </div>
@@ -29,7 +26,7 @@ const User = () => {
       <div>
         <div className="my-5">
           <div className="mt-[30px] mb-[40px]">
-            <h3 className=" text-4xl dark:text-[#fff] font-abc font-medium tracking-widest capitalize">
+            <h3 className=" text-2xl md:text-3xl dark:text-[#fff] font-abc font-medium tracking-widest capitalize">
               what i do!
             </h3>
             <div className="flex  items-center">

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import proimg from "../../Images/formal2.png";
+import cv from "../../Images/symunCv.pdf";
 
 const Profile = () => {
   return (
@@ -100,6 +101,14 @@ const Profile = () => {
                   June 12, 1998
                 </p>
               </div>
+            </div>
+          </div>
+
+          <div className="my-6 flex items-center  justify-center text-center">
+            <div className="w-1/2 bg-btnbg dark:bg-green2  hover:bg-green2 dark:hover:bg-btnbg duration-300 px-4 py-2 text-[#fff] font-jose rounded-full">
+              <a href={cv} download="resume">
+                Download CV
+              </a>
             </div>
           </div>
         </div>

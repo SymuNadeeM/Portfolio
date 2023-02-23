@@ -7,7 +7,7 @@ const Works = () => {
     <>
       <div>
         <div className=" flex items-center">
-          <h1 className=" text-3xl md:text-5xl  font-jose font-semibold">
+          <h1 className=" text-3xl md:text-5xl dark:text-[#fff] font-jose font-semibold">
             MY PORTFOLIO
           </h1>
 
@@ -15,7 +15,7 @@ const Works = () => {
           <div className="bg-btnbg  rounded-full w-[8px] h-[8px] p-[2px]"></div>
         </div>
         <div className="mt-[30px] mb-[40px]">
-          <h3 className=" text-4xl font-abc font-medium   capitalize">
+          <h3 className=" text-2xl md:text-3xl dark:text-[#fff]  font-abc font-medium   capitalize">
             my work
           </h3>
           <div className="flex  items-center">
@@ -24,11 +24,11 @@ const Works = () => {
           </div>
         </div>
         <div className="mt-[40px]">
-          <div className=" grid md:grid-cols-2 gap-3">
+          <div className=" grid md:grid-cols-2 gap-5">
             {WorkData.map((items) => {
               return (
                 <div key={items.id}>
-                  <div className="bg-[#E3F6FF] border border-green2 border-opacity-25 bg-opacity-50  p-6 rounded-xl flex flex-col justify-center items-center">
+                  <div className="bg-[#E3F6FF] dark:bg-blackbg  border-[1.8px] dark:border-btnbg   border-green2 border-opacity-25 bg-opacity-50  p-6 rounded-xl flex flex-col justify-center items-center">
                     <img
                       src={items.image}
                       alt=""
@@ -37,7 +37,7 @@ const Works = () => {
                     <p className="text-text1  tracking-wide text-sm font-normal  font-Robbi">
                       {items.desc}
                     </p>
-                    <p className=" text-text2 tracking-wider text-xl font-normal  font-Robbi">
+                    <p className=" text-text2 dark:text-[#fff] tracking-wider text-xl font-normal  font-Robbi">
                       {items.name}
                     </p>
                     <Link
