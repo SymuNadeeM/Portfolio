@@ -83,7 +83,7 @@ const User = () => {
           <div className=" space-y-2 dark:bg-tran bg-[#fff] border p-4 border-[#f9fafc]">
             <div className=" flex justify-between text-center">
               <h4 className=" text-[#FF972D] text-[16px] font-semibold">
-                2018 - Present
+                2019 - Present
               </h4>
               <p className=" font-medium text-text2">-Envato Market</p>
             </div>
