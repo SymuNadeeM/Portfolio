@@ -5,7 +5,7 @@ const Resume = () => {
     <>
       <div>
         <div className=" flex items-center">
-          <h1 className=" text-3xl md:text-5xl dark:text-[#fff]  font-jose font-semibold">
+          <h1 className=" text-xl md:text-3xl dark:text-[#fff]  font-jose font-semibold">
             Resume
           </h1>
 
@@ -13,7 +13,7 @@ const Resume = () => {
           <div className="bg-btnbg  rounded-full w-[8px] h-[8px] p-[2px]"></div>
         </div>
         <div className="mt-[30px] mb-[40px]">
-          <h3 className=" text-2xl md:text-3xl font-abc dark:text-[#fff] font-medium tracking-widest">
+          <h3 className=" text-lg md:text-xl font-abc dark:text-[#fff] font-medium ">
             EDUCATION & SKILLS
           </h3>
           <div className="flex  items-center">
@@ -25,7 +25,7 @@ const Resume = () => {
           <div className=" grid md:col-span-1 space-y-2">
             <div className=" flex items-center mb-4 gap-2 ">
               <i class="fa-solid fa-school text-xl text-btnbg"></i>
-              <h3 className=" font-Robbi  dark:text-dtext1 font-semibold text-xl">
+              <h3 className=" font-Robbi  dark:text-dtext1  text-xl">
                 Education
               </h3>
             </div>
@@ -75,7 +75,7 @@ const Resume = () => {
             <div>
               <div className="flex items-center mb-4 gap-2">
                 <i class="fa-solid fa-user-graduate text-xl text-btnbg"></i>
-                <h3 className=" font-Robbi dark:text-dtext1 font-semibold text-xl">
+                <h3 className=" font-Robbi dark:text-dtext1  text-xl">
                   My skills
                 </h3>
               </div>

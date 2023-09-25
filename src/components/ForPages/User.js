@@ -6,7 +6,7 @@ const User = () => {
       {/* About me */}
       <div className="space-y-2   md:space-y-4">
         <div className=" flex items-center">
-          <h1 className=" text-3xl md:text-5xl dark:text-[#fff]  font-jose font-semibold">
+          <h1 className=" text-xl md:text-3xl dark:text-[#fff]  font-jose font-semibold">
             About me
           </h1>
 
@@ -22,75 +22,90 @@ const User = () => {
           </p>
         </div>
       </div>
-      {/* what can i do */}
-      <div>
-        <div className="my-5">
-          <div className="mt-[30px] mb-[40px]">
-            <h3 className=" text-2xl md:text-3xl dark:text-[#fff] font-abc font-medium tracking-widest capitalize">
-              what i do!
-            </h3>
-            <div className="flex  items-center">
-              <div className=" bg-green2 w-[100px] h-[1px] p-[1px]"></div>
-              <div className="bg-green2  rounded-full w-[6px] h-[6px] p-[2px]"></div>
-            </div>
-          </div>
+      {/* My Interests */}
+
+      <div className="mt-[30px] mb-[20px]">
+        <h3 className=" uppercase text-lg md:text-xl dark:text-[#fff] font-abc font-medium  ">
+          My Interests
+        </h3>
+        <div className="flex  items-center">
+          <div className=" bg-green2 w-[45px] h-[1px] p-[1px]"></div>
+          <div className="bg-green2  rounded-full w-[6px] h-[6px] p-[2px]"></div>
         </div>
-        <div className=" grid md:grid-cols-2 gap-4">
-          <div className=" bg-[#EFA3C8] dark:bg-blackbg border-[#EFA3C8] border-[1.8px] dark:border-btnbg  bg-opacity-25 p-5 flex items-baseline gap-3 rounded-lg">
-            <i class="fa-solid fa-code text-[#7286D3] text-3xl"></i>
-            <div className=" space-y-2">
-              <p className=" text-lg dark:text-[#E5E5CB] md:text-xl  font-Robbi font-semibold">
-                Web Development
-              </p>
-              <p className="text-text1 font-Robbi  leading-loose tracking-wide">
-                Lorem ipsum dolor sit adipiscing elit, sed diam euismod
-                consectetuer volutpat.
-              </p>
-            </div>
+        <div className="mt-[10px] flex justify-between items-center ">
+          <div className=" flex items-center justify-center gap-2">
+            <i class="fa-solid fa-plane-departure text-[19px] dark:text-[#fff]  text-btnbg"></i>
+            <p className=" font-Robbi dark:text-dtext1">Travel</p>
           </div>
-          <div className=" bg-[#EFA3C8] dark:bg-blackbg border-[#EFA3C8] border-[1.8px] dark:border-btnbg  bg-opacity-25 p-5 flex items-baseline gap-3 rounded-lg">
-            <i class="fa-solid fa-code text-[#7286D3] text-3xl"></i>
-            <div className=" space-y-2">
-              <p className=" text-lg dark:text-[#E5E5CB] md:text-xl  font-Robbi font-semibold">
-                Web Development
-              </p>
-              <p className="text-text1 font-Robbi  leading-loose tracking-wide">
-                Lorem ipsum dolor sit adipiscing elit, sed diam euismod
-                consectetuer volutpat.
-              </p>
-            </div>
+          <div className=" flex items-center justify-center gap-2">
+            <i class="fa-solid fa-code text-[19px] dark:text-[#fff]  text-btnbg"></i>
+            <p className=" font-Robbi dark:text-dtext1">Coding</p>
           </div>
-          <div className=" bg-[#EFA3C8] dark:bg-blackbg border-[#EFA3C8] border-[1.8px] dark:border-btnbg  bg-opacity-25 p-5 flex items-baseline gap-3 rounded-lg">
-            <i class="fa-solid fa-code text-[#7286D3] text-3xl"></i>
-            <div className=" space-y-2">
-              <p className=" text-lg dark:text-[#E5E5CB] md:text-xl  font-Robbi font-semibold">
-                Web Development
-              </p>
-              <p className="text-text1 font-Robbi  leading-loose tracking-wide">
-                Lorem ipsum dolor sit adipiscing elit, sed diam euismod
-                consectetuer volutpat.
-              </p>
-            </div>
+          <div className=" flex items-center justify-center gap-2">
+            <i class="fa-solid fa-drumstick-bite text-[19px] dark:text-[#fff]  text-btnbg"></i>
+            <p className=" font-Robbi dark:text-dtext1">Eating</p>
           </div>
-          <div className=" bg-[#EFA3C8] dark:bg-blackbg bg-opacity-25 p-5 flex items-baseline gap-3 border-[#EFA3C8] border-[1.8px] dark:border-btnbg rounded-lg">
-            <i class="fa-solid fa-code text-[#7286D3] text-3xl"></i>
-            <div className=" space-y-2">
-              <p className=" text-lg dark:text-[#E5E5CB] md:text-xl  font-Robbi font-semibold">
-                Web Development
-              </p>
-              <p className="text-text1 font-Robbi  leading-loose tracking-wide">
-                Lorem ipsum dolor sit adipiscing elit, sed diam euismod
-                consectetuer volutpat.
-              </p>
-            </div>
+          <div className=" flex items-center justify-center gap-2">
+            <i class="fa-solid fa-baseball-bat-ball text-[19px] dark:text-[#fff]  text-btnbg"></i>
+            <p className=" font-Robbi dark:text-dtext1">Playing</p>
           </div>
         </div>
       </div>
-      <div>
-        <div className="my-5">
-          <h1 className=" text-2xl md:text-4xl dark:text-[#fff] font-jose font-medium ">
-            My Client!
-          </h1>
+
+      {/* Card Three */}
+      <div className="mt-[45px] grid grid-cols-3 gap-3">
+        <div className=" bg-[#d3f4ec] rounded-md  p-4 flex flex-col justify-center items-center ">
+          <h2 className=" font-Robbi text-[30px] font-semibold "> 3+ </h2>
+          <p className=" font-abc text-lg uppercase "> Years of Experience</p>
+        </div>
+        <div className=" bg-[#fce8d4] rounded-md  p-4 flex flex-col justify-center items-center ">
+          <h2 className=" font-Robbi text-[30px] font-semibold "> 30+ </h2>
+          <p className=" font-abc text-lg uppercase"> PROJECTS COMPLETED</p>
+        </div>
+        <div className=" bg-[#e3f9e0] rounded-md  p-4 flex flex-col justify-center items-center ">
+          <h2 className=" font-Robbi text-[30px] font-semibold "> 10+ </h2>
+          <p className=" font-abc text-lg "> HAPPY CLIENTS </p>
+        </div>
+      </div>
+
+      {/* Experience */}
+
+      <div className=" mt-[30px] bg-[#f3f9ff] dark:bg-blackbg p-5">
+        <h3 className=" text-lg md:text-xl dark:text-[#fff] font-abc font-medium  capitalize">
+          EXPERIENCE
+        </h3>
+        <div className="flex  items-center">
+          <div className=" bg-green2 w-[45px] h-[1px] p-[1px]"></div>
+          <div className="bg-green2  rounded-full w-[6px] h-[6px] p-[2px]"></div>
+        </div>
+
+        <div className=" mt-[20px] grid grid-cols-2 gap-3 ">
+          <div className=" space-y-2 dark:bg-tran bg-[#fff] border p-4 border-[#f9fafc]">
+            <div className=" flex justify-between text-center">
+              <h4 className=" text-[#FF972D] text-[16px] font-semibold">
+                2018 - Present
+              </h4>
+              <p className=" font-medium text-text2">-Envato Market</p>
+            </div>
+            <h3 className=" text-[19px] text-text2 font-abc">Web Developer</h3>
+            <p className=" font-thin text-text1 ">
+              Website development is the process of building, programming,
+              coding and maintaining websites and web applications.
+            </p>
+          </div>
+          <div className=" space-y-2 bg-[#fff] border p-4 border-[#f9fafc]">
+            <div className=" flex justify-between text-center">
+              <h4 className=" text-[#FF972D] text-[16px] font-semibold">
+                2018 - Present
+              </h4>
+              <p className=" font-medium text-text2">-Envato Market</p>
+            </div>
+            <h3 className=" text-[19px] text-text2 font-abc">Web Developer</h3>
+            <p className=" font-thin text-text1 ">
+              Website development is the process of building, programming,
+              coding and maintaining websites and web applications.
+            </p>
+          </div>
         </div>
       </div>
     </>

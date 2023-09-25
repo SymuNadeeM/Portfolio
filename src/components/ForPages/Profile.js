@@ -17,8 +17,8 @@ const Profile = () => {
 
         <div className="mt-[40px]  text-center">
           <div className=" space-y-3">
-            <h2 className=" text-3xl font-bold font-Robbi text-[#181D31] dark:text-[#ffff]">
-              Symun Majumdar
+            <h2 className=" text-2xl font-bold font-jose text-[#181D31] dark:text-[#ffff]">
+              Md. Symun Majumdar
             </h2>
             <p className=" text-text1 dark:text-dtext1  text-sm font-normal  font-Robbi">
               Front-End Developer

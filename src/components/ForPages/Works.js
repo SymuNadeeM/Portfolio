@@ -7,19 +7,19 @@ const Works = () => {
     <>
       <div>
         <div className=" flex items-center">
-          <h1 className=" text-3xl md:text-5xl dark:text-[#fff] font-jose font-semibold">
-            MY PORTFOLIO
+          <h1 className=" text-xl md:text-3xl dark:text-[#fff] font-jose capitalize font-semibold">
+            My Portfolio
           </h1>
 
           <div className=" ml-4 bg-btnbg w-1/4 p-[1px]"></div>
           <div className="bg-btnbg  rounded-full w-[8px] h-[8px] p-[2px]"></div>
         </div>
         <div className="mt-[30px] mb-[40px]">
-          <h3 className=" text-2xl md:text-3xl dark:text-[#fff]  font-abc font-medium   capitalize">
-            my work
+          <h3 className=" text-lg md:text-xl font-abc dark:text-[#fff] font-medium ">
+            MY WORK
           </h3>
           <div className="flex  items-center">
-            <div className=" bg-green2 w-[80px] h-[1px] p-[1px]"></div>
+            <div className=" bg-green2 w-[40px] h-[1px] p-[1px]"></div>
             <div className="bg-green2  rounded-full w-[6px] h-[6px] p-[2px]"></div>
           </div>
         </div>
